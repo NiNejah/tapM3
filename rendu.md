@@ -1,7 +1,14 @@
 # DM3 
 
-## vite bundling : 
-Vite serves source code over native ESM. This is essentially letting the browser take over part of the job of a bundler: Vite only needs to transform and serve source code on demand, as the browser requests it. Code behind conditional dynamic imports is only processed if actually used on the current screen.[1]
+## vite bundling :
+
+### Introduction to ViteJs :  
+Avant que les modules ES ne soient disponibles dans les navigateurs, les développeurs ne disposaient d'aucun mécanisme natif pour créer du JavaScript de manière modulaire. C'est pourquoi nous sommes tous familiers avec le concept de "bundling" : l'utilisation d'outils qui explorent, traitent et concaténent nos modules sources dans des fichiers qui peuvent être exécutés dans le navigateur.
+
+Cependant, à mesure que nous créons des applications de plus en plus ambitieuses, la quantité de JavaScript que nous utilisons augmente considérablement. Il n'est pas rare que des projets de grande envergure contiennent des milliers de modules. Nous commençons à nous heurter à un goulot d'étranglement en matière de performances pour les outils basés sur JavaScript : le démarrage d'un serveur de développement peut souvent prendre un temps d'attente déraisonnable (parfois jusqu'à plusieurs minutes !), et même avec le remplacement à chaud de modules (HMR), les modifications de fichiers peuvent prendre quelques secondes avant d'être répercutées dans le navigateur. La lenteur de la boucle de rétroaction peut grandement affecter la productivité et la satisfaction des développeurs.
+
+Vite vise à résoudre ces problèmes en tirant parti des nouvelles avancées de l'écosystème : la disponibilité de modules ES natifs dans le navigateur et l'essor d'outils JavaScript écrits dans des langages de compilation natifs. [1]
+
 
 <svg viewBox="0 0 1896 1071" fill="none" xmlns="http://www.w3.org/2000/svg">
 <text fill="#FFAA3E" xml:space="preserve" style="white-space: pre" font-size="80" letter-spacing="0em"><tspan x="46" y="132.344">Bundle based dev server</tspan></text>
@@ -41,6 +48,8 @@ Vite serves source code over native ESM. This is essentially letting the browser
 <text fill="white" xml:space="preserve" style="white-space: pre" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="1667.71" y="604.988">Server
 </tspan><tspan x="1675.76" y="649.988">ready</tspan></text>
 </svg>
+
+Vite serves source code over native ESM. This is essentially letting the browser take over part of the job of a bundler: Vite only needs to transform and serve source code on demand, as the browser requests it. Code behind conditional dynamic imports is only processed if actually used on the current screen.[1]
 
 <svg viewBox="0 0 1896 1071" fill="none" xmlns="http://www.w3.org/2000/svg">
 <text fill="#FFAA3E" xml:space="preserve" style="white-space: pre" font-size="80" letter-spacing="0em"><tspan x="45" y="129.344">Native ESM based dev server</tspan></text>
