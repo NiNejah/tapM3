@@ -10,8 +10,9 @@ Cependant, à mesure que nous créons des applications de plus en plus ambitieus
 Vite vise à résoudre ces problèmes en tirant parti des nouvelles avancées de l'écosystème : la disponibilité de modules ES natifs dans le navigateur et l'essor d'outils JavaScript écrits dans des langages de compilation natifs. [1]
 
 
-<img src="./image1.svg">
-<img src="./image2.svg">
+<img src="./image1.svg" width="500">
+
+<img src="./image2.svg" width="500">
 
 
 ## Références :  
