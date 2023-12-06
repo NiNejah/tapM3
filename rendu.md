@@ -49,7 +49,6 @@ Vite vise à résoudre ces problèmes en tirant parti des nouvelles avancées de
 </tspan><tspan x="1675.76" y="649.988">ready</tspan></text>
 </svg>
 
-Vite serves source code over native ESM. This is essentially letting the browser take over part of the job of a bundler: Vite only needs to transform and serve source code on demand, as the browser requests it. Code behind conditional dynamic imports is only processed if actually used on the current screen.[1]
 
 <svg viewBox="0 0 1896 1071" fill="none" xmlns="http://www.w3.org/2000/svg">
 <text fill="#FFAA3E" xml:space="preserve" style="white-space: pre" font-size="80" letter-spacing="0em"><tspan x="45" y="129.344">Native ESM based dev server</tspan></text>
